@@ -1,0 +1,493 @@
+{
+  "config": {
+    "title": "Test Gatsby",
+    "description": "A simple starter to get up and developing quickly with Gatsby",
+    "menu": [
+      "Getting Started",
+      "Java",
+      "JavaScript",
+      "PHP",
+      "Python",
+      "Ruby"
+    ],
+    "version": "0.1.0",
+    "repository": "https://github.com/gatsbyjs/gatsby-starter-default",
+    "native": false,
+    "themeConfig": {},
+    "separator": "-",
+    "base": "/docs",
+    "ignore": [
+      "Readme.md"
+    ]
+  },
+  "entries": [
+    {
+      "key": "README.md",
+      "value": {
+        "id": "04c6e90faac2675aa89e2176d2eec7d8",
+        "filepath": "README.md",
+        "fullpath": "/home/anisiomandlate/Documents/Projects/PaymentsDS/website/README.md",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/README.md",
+        "hidden": false,
+        "slug": "readme",
+        "route": "/readme",
+        "name": "Readme",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "-quick-start",
+            "depth": 2,
+            "value": "🚀 Quick start"
+          },
+          {
+            "slug": "🧐-whats-inside",
+            "depth": 2,
+            "value": "🧐 What's inside?"
+          },
+          {
+            "slug": "-learning-gatsby",
+            "depth": 2,
+            "value": "🎓 Learning Gatsby"
+          },
+          {
+            "slug": "-deploy",
+            "depth": 2,
+            "value": "💫 Deploy"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/index.mdx",
+      "value": {
+        "name": "Getting Started",
+        "route": "/docs",
+        "id": "73498ad0e1e62a714b08085d318f9de1",
+        "filepath": "docs/index.mdx",
+        "fullpath": "/home/anisiomandlate/Documents/Projects/PaymentsDS/website/docs/index.mdx",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/docs/index.mdx",
+        "hidden": false,
+        "slug": "docs-index",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "overview",
+            "depth": 2,
+            "value": "Overview"
+          },
+          {
+            "slug": "quickstart",
+            "depth": 2,
+            "value": "Quickstart"
+          },
+          {
+            "slug": "features",
+            "depth": 2,
+            "value": "Features"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/java/installation.md",
+      "value": {
+        "name": "Installation",
+        "menu": "Java",
+        "id": "4a7c16879932e664096d0999baf68ab6",
+        "filepath": "docs/java/installation.md",
+        "fullpath": "/home/anisiomandlate/Documents/Projects/PaymentsDS/website/docs/java/installation.md",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/docs/java/installation.md",
+        "hidden": false,
+        "slug": "docs-java-installation",
+        "route": "/docs-java-installation",
+        "headings": [
+          {
+            "slug": "using-rubygems",
+            "depth": 4,
+            "value": "Using RubyGems"
+          },
+          {
+            "slug": "using-bundler",
+            "depth": 4,
+            "value": "Using Bundler"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/java/usage.md",
+      "value": {
+        "name": "Usage",
+        "menu": "Java",
+        "id": "44e54565b254080eac49f46cbc39d810",
+        "filepath": "docs/java/usage.md",
+        "fullpath": "/home/anisiomandlate/Documents/Projects/PaymentsDS/website/docs/java/usage.md",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/docs/java/usage.md",
+        "hidden": false,
+        "slug": "docs-java-usage",
+        "route": "/docs-java-usage",
+        "headings": [
+          {
+            "slug": "prerequisites",
+            "depth": 3,
+            "value": "Prerequisites"
+          },
+          {
+            "slug": "receive-money-from-a-mobile-account-to-a-business-account",
+            "depth": 3,
+            "value": "Receive money from a mobile account to a business account"
+          },
+          {
+            "slug": "send-money-from-a-business-account-to-a-mobile-account",
+            "depth": 3,
+            "value": "Send money from a business account to a mobile account"
+          },
+          {
+            "slug": "send-money-from-a-business-account-to-a-another-business-account",
+            "depth": 3,
+            "value": "Send money from a business account to a another business account"
+          },
+          {
+            "slug": "revert-a-transaction",
+            "depth": 3,
+            "value": "Revert a transaction"
+          },
+          {
+            "slug": "query-the-status-of-a-transaction",
+            "depth": 3,
+            "value": "Query the status of a transaction"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/javascript/configuration.md",
+      "value": {
+        "name": "Configuration",
+        "menu": "JavaScript",
+        "id": "3e7270bde3bbdf08c7eef40810925e3e",
+        "filepath": "docs/javascript/configuration.md",
+        "fullpath": "/home/anisiomandlate/Documents/Projects/PaymentsDS/website/docs/javascript/configuration.md",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/docs/javascript/configuration.md",
+        "hidden": false,
+        "slug": "docs-javascript-configuration",
+        "route": "/docs-javascript-configuration",
+        "headings": []
+      }
+    },
+    {
+      "key": "docs/javascript/installation.md",
+      "value": {
+        "name": "Installation",
+        "menu": "JavaScript",
+        "id": "f0515c01c3faaa1ae9e8b51db1308024",
+        "filepath": "docs/javascript/installation.md",
+        "fullpath": "/home/anisiomandlate/Documents/Projects/PaymentsDS/website/docs/javascript/installation.md",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/docs/javascript/installation.md",
+        "hidden": false,
+        "slug": "docs-javascript-installation",
+        "route": "/docs-javascript-installation",
+        "headings": [
+          {
+            "slug": "using-npm",
+            "depth": 4,
+            "value": "Using NPM"
+          },
+          {
+            "slug": "using-yarn",
+            "depth": 4,
+            "value": "Using Yarn"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/javascript/usage.md",
+      "value": {
+        "name": "Usage",
+        "menu": "JavaScript",
+        "id": "eef73f3d43d9c99dd80a7f851faba701",
+        "filepath": "docs/javascript/usage.md",
+        "fullpath": "/home/anisiomandlate/Documents/Projects/PaymentsDS/website/docs/javascript/usage.md",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/docs/javascript/usage.md",
+        "hidden": false,
+        "slug": "docs-javascript-usage",
+        "route": "/docs-javascript-usage",
+        "headings": [
+          {
+            "slug": "prerequisites",
+            "depth": 3,
+            "value": "Prerequisites"
+          },
+          {
+            "slug": "receive-money-from-a-mobile-account-to-a-business-account",
+            "depth": 3,
+            "value": "Receive money from a mobile account to a business account"
+          },
+          {
+            "slug": "send-money-from-a-business-account-to-a-mobile-account",
+            "depth": 3,
+            "value": "Send money from a business account to a mobile account"
+          },
+          {
+            "slug": "send-money-from-a-business-account-to-a-another-business-account",
+            "depth": 3,
+            "value": "Send money from a business account to a another business account"
+          },
+          {
+            "slug": "revert-a-transaction",
+            "depth": 3,
+            "value": "Revert a transaction"
+          },
+          {
+            "slug": "query-the-status-of-a-transaction",
+            "depth": 3,
+            "value": "Query the status of a transaction"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/php/installation.md",
+      "value": {
+        "name": "Installation",
+        "menu": "PHP",
+        "id": "e9a26ae368aeeb822a47f7311c7413dd",
+        "filepath": "docs/php/installation.md",
+        "fullpath": "/home/anisiomandlate/Documents/Projects/PaymentsDS/website/docs/php/installation.md",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/docs/php/installation.md",
+        "hidden": false,
+        "slug": "docs-php-installation",
+        "route": "/docs-php-installation",
+        "headings": [
+          {
+            "slug": "using-composer",
+            "depth": 4,
+            "value": "Using Composer"
+          },
+          {
+            "slug": "manual-installation",
+            "depth": 4,
+            "value": "Manual Installation"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/php/usage.md",
+      "value": {
+        "name": "Usage",
+        "menu": "PHP",
+        "id": "8b97985d81da0354edbc5632ae9b6f37",
+        "filepath": "docs/php/usage.md",
+        "fullpath": "/home/anisiomandlate/Documents/Projects/PaymentsDS/website/docs/php/usage.md",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/docs/php/usage.md",
+        "hidden": false,
+        "slug": "docs-php-usage",
+        "route": "/docs-php-usage",
+        "headings": [
+          {
+            "slug": "prerequisites",
+            "depth": 3,
+            "value": "Prerequisites"
+          },
+          {
+            "slug": "receive-money-from-a-mobile-account-to-a-business-account",
+            "depth": 3,
+            "value": "Receive money from a mobile account to a business account"
+          },
+          {
+            "slug": "send-money-from-a-business-account-to-a-mobile-account",
+            "depth": 3,
+            "value": "Send money from a business account to a mobile account"
+          },
+          {
+            "slug": "send-money-from-a-business-account-to-a-another-business-account",
+            "depth": 3,
+            "value": "Send money from a business account to a another business account"
+          },
+          {
+            "slug": "revert-a-transaction",
+            "depth": 3,
+            "value": "Revert a transaction"
+          },
+          {
+            "slug": "query-the-status-of-a-transaction",
+            "depth": 3,
+            "value": "Query the status of a transaction"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/python/installation.md",
+      "value": {
+        "name": "Installation",
+        "menu": "Python",
+        "id": "85cc54b03287ef9479447e61711d20ba",
+        "filepath": "docs/python/installation.md",
+        "fullpath": "/home/anisiomandlate/Documents/Projects/PaymentsDS/website/docs/python/installation.md",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/docs/python/installation.md",
+        "hidden": false,
+        "slug": "docs-python-installation",
+        "route": "/docs-python-installation",
+        "headings": []
+      }
+    },
+    {
+      "key": "docs/python/usage.md",
+      "value": {
+        "name": "Usage",
+        "menu": "Python",
+        "id": "4415fba3a108a1a4153a5355a223c940",
+        "filepath": "docs/python/usage.md",
+        "fullpath": "/home/anisiomandlate/Documents/Projects/PaymentsDS/website/docs/python/usage.md",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/docs/python/usage.md",
+        "hidden": false,
+        "slug": "docs-python-usage",
+        "route": "/docs-python-usage",
+        "headings": [
+          {
+            "slug": "prerequisites",
+            "depth": 3,
+            "value": "Prerequisites"
+          },
+          {
+            "slug": "receive-money-from-a-mobile-account-to-a-business-account",
+            "depth": 3,
+            "value": "Receive money from a mobile account to a business account"
+          },
+          {
+            "slug": "send-money-from-a-business-account-to-a-mobile-account",
+            "depth": 3,
+            "value": "Send money from a business account to a mobile account"
+          },
+          {
+            "slug": "send-money-from-a-business-account-to-a-another-business-account",
+            "depth": 3,
+            "value": "Send money from a business account to a another business account"
+          },
+          {
+            "slug": "revert-a-transaction",
+            "depth": 3,
+            "value": "Revert a transaction"
+          },
+          {
+            "slug": "query-the-status-of-a-transaction",
+            "depth": 3,
+            "value": "Query the status of a transaction"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/ruby/installation.md",
+      "value": {
+        "name": "Installation",
+        "menu": "Ruby",
+        "id": "62800db99774bd964fc6a933f59e7303",
+        "filepath": "docs/ruby/installation.md",
+        "fullpath": "/home/anisiomandlate/Documents/Projects/PaymentsDS/website/docs/ruby/installation.md",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/docs/ruby/installation.md",
+        "hidden": false,
+        "slug": "docs-ruby-installation",
+        "route": "/docs-ruby-installation",
+        "headings": [
+          {
+            "slug": "using-rubygems",
+            "depth": 4,
+            "value": "Using RubyGems"
+          },
+          {
+            "slug": "using-bundler",
+            "depth": 4,
+            "value": "Using Bundler"
+          }
+        ]
+      }
+    },
+    {
+      "key": "docs/ruby/usage.md",
+      "value": {
+        "name": "Usage",
+        "menu": "Ruby",
+        "id": "a505e022108323432486aa2592aa2d5e",
+        "filepath": "docs/ruby/usage.md",
+        "fullpath": "/home/anisiomandlate/Documents/Projects/PaymentsDS/website/docs/ruby/usage.md",
+        "link": "https://github.com/gatsbyjs/gatsby-starter-default/edit/master/docs/ruby/usage.md",
+        "hidden": false,
+        "slug": "docs-ruby-usage",
+        "route": "/docs-ruby-usage",
+        "headings": [
+          {
+            "slug": "prerequisites",
+            "depth": 3,
+            "value": "Prerequisites"
+          },
+          {
+            "slug": "receive-money-from-a-mobile-account-to-a-business-account",
+            "depth": 3,
+            "value": "Receive money from a mobile account to a business account"
+          },
+          {
+            "slug": "send-money-from-a-business-account-to-a-mobile-account",
+            "depth": 3,
+            "value": "Send money from a business account to a mobile account"
+          },
+          {
+            "slug": "send-money-from-a-business-account-to-a-another-business-account",
+            "depth": 3,
+            "value": "Send money from a business account to a another business account"
+          },
+          {
+            "slug": "revert-a-transaction",
+            "depth": 3,
+            "value": "Revert a transaction"
+          },
+          {
+            "slug": "query-the-status-of-a-transaction",
+            "depth": 3,
+            "value": "Query the status of a transaction"
+          }
+        ]
+      }
+    }
+  ],
+  "props": [
+    {
+      "key": "src/pages/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "IndexPage",
+          "methods": [],
+          "actualName": "IndexPage"
+        }
+      ]
+    },
+    {
+      "key": "src/components/Header/index.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Header",
+          "methods": [],
+          "actualName": "Header",
+          "props": {
+            "siteTitle": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "``",
+                "computed": false
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+header {
+  background: rebeccapurple;
+  margin-bottom: 1.45rem;
+}
+
+.menu {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 1.45rem 1.0875rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu > h1 {
+  margin: 0;
+}
+
+.links {
+  color: white;
+  text-decoration: none;
+}
