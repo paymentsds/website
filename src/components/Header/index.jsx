@@ -12,11 +12,11 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
-      <h1>
+      <h4>
         <Link to="/docs" className={styles.links}>
           Documentação
         </Link>
-      </h1>
+      </h4>
     </div>
   </header>
 )

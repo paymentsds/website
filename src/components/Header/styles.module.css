@@ -12,7 +12,8 @@ header {
   align-items: center;
 }
 
-.menu > h1 {
+.menu > h1,
+.menu > h4 {
   margin: 0;
 }
 

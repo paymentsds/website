@@ -455,30 +455,6 @@
   ],
   "props": [
     {
-      "key": "src/components/Header/index.jsx",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Header",
-          "methods": [],
-          "actualName": "Header",
-          "props": {
-            "siteTitle": {
-              "type": {
-                "name": "string"
-              },
-              "required": false,
-              "description": "",
-              "defaultValue": {
-                "value": "``",
-                "computed": false
-              }
-            }
-          }
-        }
-      ]
-    },
-    {
       "key": "src/pages/index.js",
       "value": [
         {
@@ -508,6 +484,30 @@
           "displayName": "NotFoundPage",
           "methods": [],
           "actualName": "NotFoundPage"
+        }
+      ]
+    },
+    {
+      "key": "src/components/Header/index.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Header",
+          "methods": [],
+          "actualName": "Header",
+          "props": {
+            "siteTitle": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "``",
+                "computed": false
+              }
+            }
+          }
         }
       ]
     }
