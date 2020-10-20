@@ -455,17 +455,6 @@
   ],
   "props": [
     {
-      "key": "src/pages/index.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "IndexPage",
-          "methods": [],
-          "actualName": "IndexPage"
-        }
-      ]
-    },
-    {
       "key": "src/components/Header/index.jsx",
       "value": [
         {
@@ -486,6 +475,39 @@
               }
             }
           }
+        }
+      ]
+    },
+    {
+      "key": "src/pages/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "IndexPage",
+          "methods": [],
+          "actualName": "IndexPage"
+        }
+      ]
+    },
+    {
+      "key": "src/pages/page-2.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "SecondPage",
+          "methods": [],
+          "actualName": "SecondPage"
+        }
+      ]
+    },
+    {
+      "key": "src/pages/404.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "NotFoundPage",
+          "methods": [],
+          "actualName": "NotFoundPage"
         }
       ]
     }

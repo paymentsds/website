@@ -14,7 +14,7 @@ const Header = ({ siteTitle }) => (
       </h1>
       <h1>
         <Link to="/docs" className={styles.links}>
-          Documentacao
+          Documentação
         </Link>
       </h1>
     </div>
