@@ -490,17 +490,6 @@
       ]
     },
     {
-      "key": "src/pages/index.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "IndexPage",
-          "methods": [],
-          "actualName": "IndexPage"
-        }
-      ]
-    },
-    {
       "key": "src/components/Home/index.jsx",
       "value": [
         {
@@ -508,6 +497,28 @@
           "displayName": "Home",
           "methods": [],
           "actualName": "Home"
+        }
+      ]
+    },
+    {
+      "key": "src/components/Cards/index.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Cards",
+          "methods": [],
+          "actualName": "Cards"
+        }
+      ]
+    },
+    {
+      "key": "src/pages/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "IndexPage",
+          "methods": [],
+          "actualName": "IndexPage"
         }
       ]
     }

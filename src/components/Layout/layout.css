@@ -10,7 +10,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #ecf8ff;
-  background-color: #1c2c35;
+  background: linear-gradient(
+    159.89deg,
+    #1a2730 0%,
+    #111a20 100%,
+    #111a20 100%
+  );
   font-family: -apple-system, Ubuntu;
   font-weight: normal;
   word-wrap: break-word;
@@ -20,6 +25,14 @@ body {
   -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
+
+.card-session {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 article,
 aside,
 details,
