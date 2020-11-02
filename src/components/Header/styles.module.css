@@ -1,5 +1,5 @@
 header {
-  background: rebeccapurple;
+  background: transparent;
   margin-bottom: 1.45rem;
 }
 
@@ -17,7 +17,26 @@ header {
   margin: 0;
 }
 
+.menu img {
+  width: 150px;
+}
+
+.nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav > h4 {
+  transition: all ease 0.3s;
+  border-bottom: 1px solid transparent;
+}
+
+.nav > h4:hover {
+  border-bottom: 1px solid #00d4ff;
+}
+
 .links {
-  color: white;
+  color: #ecf8ff;
   text-decoration: none;
 }

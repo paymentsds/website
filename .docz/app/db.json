@@ -466,24 +466,13 @@
       ]
     },
     {
-      "key": "src/pages/page-2.js",
+      "key": "src/components/Footer/index.jsx",
       "value": [
         {
           "description": "",
-          "displayName": "SecondPage",
+          "displayName": "Footer",
           "methods": [],
-          "actualName": "SecondPage"
-        }
-      ]
-    },
-    {
-      "key": "src/pages/404.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "NotFoundPage",
-          "methods": [],
-          "actualName": "NotFoundPage"
+          "actualName": "Footer"
         }
       ]
     },
@@ -508,17 +497,6 @@
               }
             }
           }
-        }
-      ]
-    },
-    {
-      "key": "src/components/Footer/index.jsx",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Footer",
-          "methods": [],
-          "actualName": "Footer"
         }
       ]
     }
