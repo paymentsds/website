@@ -455,17 +455,6 @@
   ],
   "props": [
     {
-      "key": "src/pages/index.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "IndexPage",
-          "methods": [],
-          "actualName": "IndexPage"
-        }
-      ]
-    },
-    {
       "key": "src/components/Footer/index.jsx",
       "value": [
         {
@@ -497,6 +486,28 @@
               }
             }
           }
+        }
+      ]
+    },
+    {
+      "key": "src/pages/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "IndexPage",
+          "methods": [],
+          "actualName": "IndexPage"
+        }
+      ]
+    },
+    {
+      "key": "src/components/Home/index.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Home",
+          "methods": [],
+          "actualName": "Home"
         }
       ]
     }

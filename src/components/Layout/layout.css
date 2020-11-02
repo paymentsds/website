@@ -11,7 +11,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: #ecf8ff;
   background-color: #1c2c35;
-  font-family: georgia, serif;
+  font-family: -apple-system, Ubuntu;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
