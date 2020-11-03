@@ -1,5 +1,6 @@
 .container {
-  height: 85vh;
+  /* Subtract the window height with header height to properly center it */
+  height: calc(100vh - 140px);
   display: grid;
   gap: 10px;
   grid-template-columns: repeat(auto-fit, 575px);
@@ -7,11 +8,11 @@
 }
 
 .title > h1 {
-  font-size: 72px;
-  font-weight: 700;
+  font-size: 70px;
+  font-weight: 600;
 }
 
-.subTitle > p {
-  font-size: 30px;
-  font-weight: 500;
+.subTitle > h2 {
+  font-size: 35px;
+  font-weight: 300;
 }

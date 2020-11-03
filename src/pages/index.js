@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/Layout"
 import Home from "../components/Home"
@@ -10,7 +9,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Home />
-    <div className="card-session">
+    <section className="card-session">
       <Cards
         title="Developer"
         description="Forneçemos uma suite de soluções para integrar qualquer aplicação a
@@ -24,9 +23,11 @@ const IndexPage = () => (
         link="page-2"
         linkText="Saiba mais"
       />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+    </section>
+
+    <section className="details"></section>
+
+    <section className="description"></section>
   </Layout>
 )
 

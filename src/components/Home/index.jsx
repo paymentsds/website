@@ -8,16 +8,14 @@ const Home = () => {
     <div className={styles.container}>
       <div className={styles.mainTexts}>
         <div className={styles.title}>
-          <h1>Payments</h1>
-          <h1>Developer Suite</h1>
+          <h1>Payments Developer Suite</h1>
         </div>
         <div className={styles.subTitle}>
-          <p>Integrando soluções digitais para criar</p>
-          <p>impacto local.</p>
+          <h2>Integrando soluções digitais para criar impacto local.</h2>
         </div>
       </div>
       <div className={styles.image}>
-        <img src={mainImg} alt="PaymentsDS" />
+        <img src={mainImg} alt="PaymentsDS Logo" />
       </div>
     </div>
   )
