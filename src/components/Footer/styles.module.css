@@ -1,6 +1,37 @@
 .footer {
   bottom: 0;
   width: 100%;
-  text-align: center;
   font-size: 1em;
+  padding: 0 1.0875rem 1.45rem;
+}
+
+.links {
+  display: grid;
+  padding: 50px 0;
+  gap: 20px;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.links .title {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.links ul a {
+  color: #fff;
+}
+
+.company {
+  text-align: center;
+}
+
+.company img {
+  width: 200px;
 }
