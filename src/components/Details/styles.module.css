@@ -1,3 +1,23 @@
-.main {
-  background-color: tomato;
+.title {
+  color: #00d4ff;
+}
+
+.mainTitle {
+  font-size: 28px;
+}
+
+.description {
+  color: #adbdcc;
+  line-height: 32px;
+  margin-bottom: 25px;
+}
+
+.button {
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #00d4ff;
+  color: #000000;
+  align-items: center;
+  margin-bottom: 25px;
 }
