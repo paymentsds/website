@@ -466,13 +466,13 @@
       ]
     },
     {
-      "key": "src/components/Cards/index.jsx",
+      "key": "src/components/Details/Terminal.jsx",
       "value": [
         {
           "description": "",
-          "displayName": "Cards",
+          "displayName": "Terminal",
           "methods": [],
-          "actualName": "Cards"
+          "actualName": "Terminal"
         }
       ]
     },
@@ -523,17 +523,6 @@
       ]
     },
     {
-      "key": "src/components/Details/Terminal.jsx",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Terminal",
-          "methods": [],
-          "actualName": "Terminal"
-        }
-      ]
-    },
-    {
       "key": "src/components/Details/index.jsx",
       "value": [
         {
@@ -541,6 +530,17 @@
           "displayName": "DetailsTexts",
           "methods": [],
           "actualName": "DetailsTexts"
+        }
+      ]
+    },
+    {
+      "key": "src/components/Cards/index.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Cards",
+          "methods": [],
+          "actualName": "Cards"
         }
       ]
     }

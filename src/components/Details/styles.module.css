@@ -26,6 +26,7 @@
   display: grid;
   gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-bottom: 30px;
 }
 
 .columnTitle {
@@ -33,7 +34,7 @@
 }
 
 .columnText {
-  font-size: 18px;
+  font-size: 17px;
   color: #adbdcc;
 }
 
