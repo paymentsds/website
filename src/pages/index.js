@@ -4,7 +4,9 @@ import Layout from "../components/Layout"
 import Home from "../components/Home"
 import SEO from "../components/SEO/seo"
 import Cards from "../components/Cards"
-import "./styles.css"
+import "../styles/styles.css"
+import DetailsTexts from "../components/Details"
+import Terminal from "../components/Details/Terminal"
 
 const IndexPage = () => (
   <Layout>
@@ -26,7 +28,10 @@ const IndexPage = () => (
       />
     </section>
 
-    <section className="details"></section>
+    <section className="details">
+      <DetailsTexts />
+      <Terminal />
+    </section>
 
     <section className="description"></section>
   </Layout>
