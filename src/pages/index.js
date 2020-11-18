@@ -4,6 +4,7 @@ import Layout from "../components/Layout"
 import Home from "../components/Home"
 import SEO from "../components/SEO/seo"
 import Cards from "../components/Cards"
+import "./styles.css"
 
 const IndexPage = () => (
   <Layout>
