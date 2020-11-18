@@ -21,3 +21,24 @@
   align-items: center;
   margin-bottom: 25px;
 }
+
+.detailsColumns {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.columnTitle {
+  font-size: 22px;
+}
+
+.columnText {
+  font-size: 18px;
+  color: #adbdcc;
+}
+
+.columnLink {
+  color: #00d4ff;
+  font-size: 16px;
+  font-weight: 500;
+}

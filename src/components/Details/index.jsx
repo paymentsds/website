@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 import styles from "./styles.module.css"
 
@@ -19,13 +20,17 @@ const DetailsTexts = () => {
         <div className={styles.column}>
           <h4 className={styles.columnTitle}>Title</h4>
           <p className={styles.columnText}>Paragraph</p>
-          <button className={styles.columnButton}>Button</button>
+          <Link to="/page-2" className={styles.columnLink}>
+            Link
+          </Link>
         </div>
 
         <div className={styles.column}>
           <h4 className={styles.columnTitle}>Title</h4>
           <p className={styles.columnText}>Paragraph</p>
-          <button className={styles.columnButton}>Button</button>
+          <Link to="/page-2" className={styles.columnLink}>
+            Link
+          </Link>
         </div>
       </div>
     </div>
