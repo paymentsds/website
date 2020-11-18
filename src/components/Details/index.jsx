@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import rightArrow from "../../images/chevron-right 2.svg"
 import styles from "./styles.module.css"
 import Cards from "../Cards"
 
@@ -13,9 +14,11 @@ const DetailsTexts = () => {
         Acesse a documentação do desenvolvedor e torne as tuas aplicações
         prontas para efectuar as transações online.
       </p>
-      <button className={styles.button}>
-        Ver a documentação <span>s</span>
-      </button>
+      <Link to="/docs" className={styles.link}>
+        <button className={styles.button}>
+          Ver a documentação <img src={rightArrow} alt="Right Arrow" />
+        </button>
+      </Link>
 
       <div className={styles.detailsColumns}>
         <div className={styles.column}>

@@ -523,17 +523,6 @@
       ]
     },
     {
-      "key": "src/components/Details/index.jsx",
-      "value": [
-        {
-          "description": "",
-          "displayName": "DetailsTexts",
-          "methods": [],
-          "actualName": "DetailsTexts"
-        }
-      ]
-    },
-    {
       "key": "src/components/Cards/index.jsx",
       "value": [
         {
@@ -541,6 +530,17 @@
           "displayName": "Cards",
           "methods": [],
           "actualName": "Cards"
+        }
+      ]
+    },
+    {
+      "key": "src/components/Details/index.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "DetailsTexts",
+          "methods": [],
+          "actualName": "DetailsTexts"
         }
       ]
     }
