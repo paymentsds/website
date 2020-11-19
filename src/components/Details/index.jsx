@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import rightArrow from "../../images/chevron-right 2.svg"
 import styles from "./styles.module.css"
-import Cards from "../Cards"
+import Cards from "../Card"
 
 const DetailsTexts = () => {
   return (

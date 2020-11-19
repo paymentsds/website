@@ -455,17 +455,6 @@
   ],
   "props": [
     {
-      "key": "src/pages/index.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "IndexPage",
-          "methods": [],
-          "actualName": "IndexPage"
-        }
-      ]
-    },
-    {
       "key": "src/components/Cards/index.jsx",
       "value": [
         {
@@ -473,17 +462,6 @@
           "displayName": "Cards",
           "methods": [],
           "actualName": "Cards"
-        }
-      ]
-    },
-    {
-      "key": "src/components/Details/index.jsx",
-      "value": [
-        {
-          "description": "",
-          "displayName": "DetailsTexts",
-          "methods": [],
-          "actualName": "DetailsTexts"
         }
       ]
     },
@@ -541,6 +519,28 @@
           "displayName": "Terminal",
           "methods": [],
           "actualName": "Terminal"
+        }
+      ]
+    },
+    {
+      "key": "src/components/Details/index.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "DetailsTexts",
+          "methods": [],
+          "actualName": "DetailsTexts"
+        }
+      ]
+    },
+    {
+      "key": "src/pages/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "IndexPage",
+          "methods": [],
+          "actualName": "IndexPage"
         }
       ]
     }
