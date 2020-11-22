@@ -1,6 +1,14 @@
 .container {
-  width: 475px;
+  width: 508px;
   height: 250px;
+  background: #1c2c35;
+  border-radius: 12px;
+  display: flex;
+}
+
+.detailsContainer {
+  width: 475px;
+  height: 280px;
   background: #1c2c35;
   border-radius: 12px;
   display: flex;
@@ -39,4 +47,14 @@
 
 .description {
   margin-bottom: 20px;
+}
+
+.button {
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #00d4ff;
+  color: #000000;
+  align-items: center;
+  cursor: pointer;
 }

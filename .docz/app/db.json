@@ -26,7 +26,7 @@
       "value": {
         "id": "04c6e90faac2675aa89e2176d2eec7d8",
         "filepath": "README.md",
-        "fullpath": "/Users/adilson/Developer/PaymentsDS/website/README.md",
+        "fullpath": "/home/anisiomandlate/Documents/Projects/PaymentsDS/website/README.md",
         "link": "https://github.com/paymentsds/website/edit/master/README.md",
         "hidden": false,
         "slug": "readme",
@@ -64,7 +64,7 @@
         "route": "/docs",
         "id": "73498ad0e1e62a714b08085d318f9de1",
         "filepath": "docs/index.mdx",
-        "fullpath": "/Users/adilson/Developer/PaymentsDS/website/docs/index.mdx",
+        "fullpath": "/home/anisiomandlate/Documents/Projects/PaymentsDS/website/docs/index.mdx",
         "link": "https://github.com/paymentsds/website/edit/master/docs/index.mdx",
         "hidden": false,
         "slug": "docs-index",
@@ -95,7 +95,7 @@
         "menu": "Java",
         "id": "4a7c16879932e664096d0999baf68ab6",
         "filepath": "docs/java/installation.md",
-        "fullpath": "/Users/adilson/Developer/PaymentsDS/website/docs/java/installation.md",
+        "fullpath": "/home/anisiomandlate/Documents/Projects/PaymentsDS/website/docs/java/installation.md",
         "link": "https://github.com/paymentsds/website/edit/master/docs/java/installation.md",
         "hidden": false,
         "slug": "docs-java-installation",
@@ -121,7 +121,7 @@
         "menu": "Java",
         "id": "44e54565b254080eac49f46cbc39d810",
         "filepath": "docs/java/usage.md",
-        "fullpath": "/Users/adilson/Developer/PaymentsDS/website/docs/java/usage.md",
+        "fullpath": "/home/anisiomandlate/Documents/Projects/PaymentsDS/website/docs/java/usage.md",
         "link": "https://github.com/paymentsds/website/edit/master/docs/java/usage.md",
         "hidden": false,
         "slug": "docs-java-usage",
@@ -167,7 +167,7 @@
         "menu": "JavaScript",
         "id": "3e7270bde3bbdf08c7eef40810925e3e",
         "filepath": "docs/javascript/configuration.md",
-        "fullpath": "/Users/adilson/Developer/PaymentsDS/website/docs/javascript/configuration.md",
+        "fullpath": "/home/anisiomandlate/Documents/Projects/PaymentsDS/website/docs/javascript/configuration.md",
         "link": "https://github.com/paymentsds/website/edit/master/docs/javascript/configuration.md",
         "hidden": false,
         "slug": "docs-javascript-configuration",
@@ -182,7 +182,7 @@
         "menu": "JavaScript",
         "id": "f0515c01c3faaa1ae9e8b51db1308024",
         "filepath": "docs/javascript/installation.md",
-        "fullpath": "/Users/adilson/Developer/PaymentsDS/website/docs/javascript/installation.md",
+        "fullpath": "/home/anisiomandlate/Documents/Projects/PaymentsDS/website/docs/javascript/installation.md",
         "link": "https://github.com/paymentsds/website/edit/master/docs/javascript/installation.md",
         "hidden": false,
         "slug": "docs-javascript-installation",
@@ -208,7 +208,7 @@
         "menu": "JavaScript",
         "id": "eef73f3d43d9c99dd80a7f851faba701",
         "filepath": "docs/javascript/usage.md",
-        "fullpath": "/Users/adilson/Developer/PaymentsDS/website/docs/javascript/usage.md",
+        "fullpath": "/home/anisiomandlate/Documents/Projects/PaymentsDS/website/docs/javascript/usage.md",
         "link": "https://github.com/paymentsds/website/edit/master/docs/javascript/usage.md",
         "hidden": false,
         "slug": "docs-javascript-usage",
@@ -254,7 +254,7 @@
         "menu": "PHP",
         "id": "e9a26ae368aeeb822a47f7311c7413dd",
         "filepath": "docs/php/installation.md",
-        "fullpath": "/Users/adilson/Developer/PaymentsDS/website/docs/php/installation.md",
+        "fullpath": "/home/anisiomandlate/Documents/Projects/PaymentsDS/website/docs/php/installation.md",
         "link": "https://github.com/paymentsds/website/edit/master/docs/php/installation.md",
         "hidden": false,
         "slug": "docs-php-installation",
@@ -280,7 +280,7 @@
         "menu": "PHP",
         "id": "8b97985d81da0354edbc5632ae9b6f37",
         "filepath": "docs/php/usage.md",
-        "fullpath": "/Users/adilson/Developer/PaymentsDS/website/docs/php/usage.md",
+        "fullpath": "/home/anisiomandlate/Documents/Projects/PaymentsDS/website/docs/php/usage.md",
         "link": "https://github.com/paymentsds/website/edit/master/docs/php/usage.md",
         "hidden": false,
         "slug": "docs-php-usage",
@@ -326,7 +326,7 @@
         "menu": "Python",
         "id": "85cc54b03287ef9479447e61711d20ba",
         "filepath": "docs/python/installation.md",
-        "fullpath": "/Users/adilson/Developer/PaymentsDS/website/docs/python/installation.md",
+        "fullpath": "/home/anisiomandlate/Documents/Projects/PaymentsDS/website/docs/python/installation.md",
         "link": "https://github.com/paymentsds/website/edit/master/docs/python/installation.md",
         "hidden": false,
         "slug": "docs-python-installation",
@@ -341,7 +341,7 @@
         "menu": "Python",
         "id": "4415fba3a108a1a4153a5355a223c940",
         "filepath": "docs/python/usage.md",
-        "fullpath": "/Users/adilson/Developer/PaymentsDS/website/docs/python/usage.md",
+        "fullpath": "/home/anisiomandlate/Documents/Projects/PaymentsDS/website/docs/python/usage.md",
         "link": "https://github.com/paymentsds/website/edit/master/docs/python/usage.md",
         "hidden": false,
         "slug": "docs-python-usage",
@@ -387,7 +387,7 @@
         "menu": "Ruby",
         "id": "62800db99774bd964fc6a933f59e7303",
         "filepath": "docs/ruby/installation.md",
-        "fullpath": "/Users/adilson/Developer/PaymentsDS/website/docs/ruby/installation.md",
+        "fullpath": "/home/anisiomandlate/Documents/Projects/PaymentsDS/website/docs/ruby/installation.md",
         "link": "https://github.com/paymentsds/website/edit/master/docs/ruby/installation.md",
         "hidden": false,
         "slug": "docs-ruby-installation",
@@ -413,7 +413,7 @@
         "menu": "Ruby",
         "id": "a505e022108323432486aa2592aa2d5e",
         "filepath": "docs/ruby/usage.md",
-        "fullpath": "/Users/adilson/Developer/PaymentsDS/website/docs/ruby/usage.md",
+        "fullpath": "/home/anisiomandlate/Documents/Projects/PaymentsDS/website/docs/ruby/usage.md",
         "link": "https://github.com/paymentsds/website/edit/master/docs/ruby/usage.md",
         "hidden": false,
         "slug": "docs-ruby-usage",
@@ -508,6 +508,28 @@
           "displayName": "Home",
           "methods": [],
           "actualName": "Home"
+        }
+      ]
+    },
+    {
+      "key": "src/components/Details/Terminal.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Terminal",
+          "methods": [],
+          "actualName": "Terminal"
+        }
+      ]
+    },
+    {
+      "key": "src/components/Details/index.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "DetailsTexts",
+          "methods": [],
+          "actualName": "DetailsTexts"
         }
       ]
     },

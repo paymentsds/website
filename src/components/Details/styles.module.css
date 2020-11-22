@@ -1,0 +1,55 @@
+.title {
+  color: #00d4ff;
+}
+
+.mainTitle {
+  font-size: 28px;
+}
+
+.description {
+  color: #adbdcc;
+  line-height: 32px;
+  margin-bottom: 25px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.button {
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #00d4ff;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.button img {
+  margin-bottom: 0;
+}
+
+.detailsColumns {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-bottom: 30px;
+}
+
+.columnTitle {
+  font-size: 22px;
+}
+
+.columnText {
+  font-size: 17px;
+  color: #adbdcc;
+}
+
+.columnLink {
+  color: #00d4ff;
+  font-size: 16px;
+  font-weight: 500;
+}
