@@ -30,11 +30,11 @@ const Developers = () => {
         </div>
         <div className={styles.buttonsContainer}>
           <Link to="/docs">
-            <Button text="Ver o Repositório" />
+            <Button>Ver o Repositório</Button>
           </Link>
 
           <a href="https://github.com/paymentsds">
-            <Button text="Ver a Documentação" />
+            <Button>Ver a Documentação</Button>
           </a>
         </div>
       </div>

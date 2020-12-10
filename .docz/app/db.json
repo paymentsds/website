@@ -466,28 +466,6 @@
       ]
     },
     {
-      "key": "src/components/Button/index.jsx",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Button",
-          "methods": [],
-          "actualName": "Button"
-        }
-      ]
-    },
-    {
-      "key": "src/components/Card/index.jsx",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Cards",
-          "methods": [],
-          "actualName": "Cards"
-        }
-      ]
-    },
-    {
       "key": "src/components/Details/Terminal.jsx",
       "value": [
         {
@@ -585,6 +563,28 @@
           "displayName": "Entrepreuners",
           "methods": [],
           "actualName": "Entrepreuners"
+        }
+      ]
+    },
+    {
+      "key": "src/components/Card/index.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Cards",
+          "methods": [],
+          "actualName": "Cards"
+        }
+      ]
+    },
+    {
+      "key": "src/components/Button/index.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Button",
+          "methods": [],
+          "actualName": "Button"
         }
       ]
     }

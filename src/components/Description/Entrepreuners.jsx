@@ -53,7 +53,7 @@ const Entrepreuners = () => {
 
         <div className={styles.buttonsContainer}>
           <Link to="/docs">
-            <Button text="Transformar o meu negócio" />
+            <Button>Transformar o meu negócio</Button>
           </Link>
         </div>
       </div>

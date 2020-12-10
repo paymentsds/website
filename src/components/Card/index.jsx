@@ -12,13 +12,7 @@ const Cards = ({ title, description, link, linkText, isDetails }) => {
         <h4 className={styles.title}>{title}</h4>
         <p className={styles.description}>{description}</p>
         <Link to={`/${link}/`}>
-          {isDetails ? (
-            <Button
-              text={linkText}
-            />
-          ) : (
-            linkText
-          )}
+          {isDetails ? <Button>{linkText}</Button> : linkText}
         </Link>
       </div>
     </div>
