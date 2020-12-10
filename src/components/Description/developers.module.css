@@ -5,12 +5,12 @@
     align-items: center;
 }
 
-.title>h1 {
+.title > h1 {
     font-size: 42px;
     font-weight: 600;
 }
 
-.subTitle>h2 {
+.subTitle > h2 {
     margin: 40px 0;
     font-size: 32px;
     font-weight: 300;
@@ -20,6 +20,6 @@ a {
     color: inherit;
 }
 
-.texts>p {
+.texts > p {
     line-height: 30px;
 }

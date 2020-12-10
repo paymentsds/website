@@ -2,6 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import styles from "./styles.module.css"
+import Button from "../Button"
 
 const Cards = ({ title, description, link, linkText, isDetails }) => {
   return (
@@ -12,7 +13,9 @@ const Cards = ({ title, description, link, linkText, isDetails }) => {
         <p className={styles.description}>{description}</p>
         <Link to={`/${link}/`}>
           {isDetails ? (
-            <button className={styles.button}>{linkText}</button>
+            <Button
+              text={linkText}
+            />
           ) : (
             linkText
           )}

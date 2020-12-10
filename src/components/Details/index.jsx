@@ -1,9 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import rightArrow from "../../images/chevron-right 2.svg"
+
 import styles from "./styles.module.css"
 import Cards from "../Card"
+import Button from "../Button"
 
 const DetailsTexts = () => {
   return (
@@ -15,9 +16,10 @@ const DetailsTexts = () => {
         prontas para efectuar as transações online.
       </p>
       <Link to="/docs" className={styles.link}>
-        <button className={styles.button}>
-          Ver a documentação <img src={rightArrow} alt="Right Arrow" />
-        </button>
+        <Button
+          text="Ver a documentação"
+          image      
+        />
       </Link>
 
       <div className={styles.detailsColumns}>

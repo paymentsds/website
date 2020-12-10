@@ -466,17 +466,6 @@
       ]
     },
     {
-      "key": "src/components/Card/index.jsx",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Cards",
-          "methods": [],
-          "actualName": "Cards"
-        }
-      ]
-    },
-    {
       "key": "src/components/Details/Terminal.jsx",
       "value": [
         {
@@ -484,17 +473,6 @@
           "displayName": "Terminal",
           "methods": [],
           "actualName": "Terminal"
-        }
-      ]
-    },
-    {
-      "key": "src/components/Details/index.jsx",
-      "value": [
-        {
-          "description": "",
-          "displayName": "DetailsTexts",
-          "methods": [],
-          "actualName": "DetailsTexts"
         }
       ]
     },
@@ -563,6 +541,39 @@
           "displayName": "Developers",
           "methods": [],
           "actualName": "Developers"
+        }
+      ]
+    },
+    {
+      "key": "src/components/Button/index.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Button",
+          "methods": [],
+          "actualName": "Button"
+        }
+      ]
+    },
+    {
+      "key": "src/components/Details/index.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "DetailsTexts",
+          "methods": [],
+          "actualName": "DetailsTexts"
+        }
+      ]
+    },
+    {
+      "key": "src/components/Card/index.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Cards",
+          "methods": [],
+          "actualName": "Cards"
         }
       ]
     }
