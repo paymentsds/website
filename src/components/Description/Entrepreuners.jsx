@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 import styles from "./entrepreuners.module.css"
 import gif from "../../images/entrepeurners.gif"
 import Button from "../Button"
+import check from "../../images/check.svg"
 
 const Entrepreuners = () => {
   return (
@@ -27,15 +28,33 @@ const Entrepreuners = () => {
             "Implementar um modelo de negócios relevante é difícil, mas ser pago
             não deve ser."
           </span>
+          <p>
+            Delicie os teus clientes com uma experiência de pagamento simples,
+            prática e coveniente oferecendo a estes metodos de pagamentos
+            práticos, modernos,e sem atritos.
+            <br />
+            Integre a tua solução ao paymentsds e deixe seus clientes pagarem
+            como quiserem.
+          </p>
         </div>
+
+        <div className={styles.supportedServices}>
+          <p>
+            <img src={check} alt="Check" /> M-pesa
+          </p>
+          <p>
+            <img src={check} alt="Check" /> Conta Móvel (Brevemente)
+          </p>
+          <p>
+            <img src={check} alt="Check" /> Cartão de Débito/Crédito
+            (Brevemente)
+          </p>
+        </div>
+
         <div className={styles.buttonsContainer}>
           <Link to="/docs">
-            <Button text="Ver o Repositório" />
+            <Button text="Transformar o meu negócio" />
           </Link>
-
-          <a href="https://github.com/paymentsds">
-            <Button text="Ver a Documentação" />
-          </a>
         </div>
       </div>
     </div>

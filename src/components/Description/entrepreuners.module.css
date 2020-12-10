@@ -22,11 +22,25 @@ a {
 
 .texts > p {
   line-height: 30px;
-  margin-bottom: 5px;
+  margin: 5px 0;
 }
 
 .quote {
+  padding-left: 25px;
   font-size: 12px !important;
+}
+
+.supportedServices {
+  padding-left: 25px;
+}
+
+.supportedServices p {
+  display: flex;
+  align-items: center;
+}
+
+.supportedServices p img {
+  margin-right: 10px;
 }
 
 .buttonsContainer {
