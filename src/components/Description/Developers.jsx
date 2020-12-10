@@ -33,9 +33,9 @@ const Developers = () => {
             <Button text="Ver o Repositório" />
           </Link>
 
-          <Link to="https://github.com/paymentsds">
+          <a href="https://github.com/paymentsds">
             <Button text="Ver a Documentação" />
-          </Link>
+          </a>
         </div>
       </div>
       <div className={styles.image}>

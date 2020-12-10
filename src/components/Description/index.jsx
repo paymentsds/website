@@ -1,15 +1,16 @@
 import React from "react"
-import Developers from "./Developers"
 
 import styles from "./styles.module.css"
+import Developers from "./Developers"
+import Entrepreuners from "./Entrepreuners"
 
 const Description = () => {
-    return (
-        <div className={styles.main}>
-            <Developers/>
-            <Developers/>
-        </div>
-    )
+  return (
+    <div className={styles.main}>
+      <Developers />
+      <Entrepreuners />
+    </div>
+  )
 }
 
 export default Description
