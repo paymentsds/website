@@ -477,17 +477,6 @@
       ]
     },
     {
-      "key": "src/components/Description/index.jsx",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Description",
-          "methods": [],
-          "actualName": "Description"
-        }
-      ]
-    },
-    {
       "key": "src/components/Details/Terminal.jsx",
       "value": [
         {
@@ -552,6 +541,28 @@
           "displayName": "Home",
           "methods": [],
           "actualName": "Home"
+        }
+      ]
+    },
+    {
+      "key": "src/components/Description/index.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Description",
+          "methods": [],
+          "actualName": "Description"
+        }
+      ]
+    },
+    {
+      "key": "src/components/Description/Developers.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Developers",
+          "methods": [],
+          "actualName": "Developers"
         }
       ]
     }
