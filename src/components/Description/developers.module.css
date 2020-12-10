@@ -1,0 +1,40 @@
+.container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, 658px);
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.mainTexts {
+  padding-left: 75px;
+}
+
+.title > h1 {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.subTitle > h2 {
+  margin: 40px 0;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+a {
+  color: inherit;
+}
+
+.texts > p {
+  line-height: 30px;
+}
+
+.buttonsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.buttonsContainer a {
+  text-decoration: none;
+}

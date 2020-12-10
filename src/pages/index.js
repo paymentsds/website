@@ -7,6 +7,7 @@ import Cards from "../components/Card"
 import "../styles/styles.css"
 import DetailsTexts from "../components/Details"
 import Terminal from "../components/Details/Terminal"
+import Description from "../components/Description"
 
 const IndexPage = () => (
   <Layout>
@@ -33,7 +34,9 @@ const IndexPage = () => (
       <Terminal />
     </section>
 
-    <section className="description"></section>
+    <section className="description">
+      <Description />
+    </section>
   </Layout>
 )
 

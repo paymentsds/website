@@ -37,6 +37,7 @@
 }
 
 .content > a {
+  text-decoration: none;
   color: #ecf8ff;
 }
 

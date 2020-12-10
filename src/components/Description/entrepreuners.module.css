@@ -1,0 +1,55 @@
+.container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, 658px);
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.title > h1 {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.subTitle > h2 {
+  margin: 40px 0;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+a {
+  color: inherit;
+}
+
+.texts > p {
+  line-height: 30px;
+  margin: 5px 0;
+}
+
+.quote {
+  padding-left: 25px;
+  font-size: 12px !important;
+}
+
+.supportedServices {
+  padding-left: 25px;
+}
+
+.supportedServices p {
+  display: flex;
+  align-items: center;
+}
+
+.supportedServices p img {
+  margin-right: 10px;
+}
+
+.buttonsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.buttonsContainer a {
+  text-decoration: none;
+}
