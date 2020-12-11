@@ -543,6 +543,17 @@
       ]
     },
     {
+      "key": "src/components/Footer/index.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Footer",
+          "methods": [],
+          "actualName": "Footer"
+        }
+      ]
+    },
+    {
       "key": "src/components/Header/index.jsx",
       "value": [
         {
