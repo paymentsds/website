@@ -455,6 +455,72 @@
   ],
   "props": [
     {
+      "key": "src/pages/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "IndexPage",
+          "methods": [],
+          "actualName": "IndexPage"
+        }
+      ]
+    },
+    {
+      "key": "src/components/Button/index.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Button",
+          "methods": [],
+          "actualName": "Button"
+        }
+      ]
+    },
+    {
+      "key": "src/components/Card/index.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Cards",
+          "methods": [],
+          "actualName": "Cards"
+        }
+      ]
+    },
+    {
+      "key": "src/components/Description/Developers.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Developers",
+          "methods": [],
+          "actualName": "Developers"
+        }
+      ]
+    },
+    {
+      "key": "src/components/Description/Entrepreuners.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Entrepreuners",
+          "methods": [],
+          "actualName": "Entrepreuners"
+        }
+      ]
+    },
+    {
+      "key": "src/components/Description/index.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Description",
+          "methods": [],
+          "actualName": "Description"
+        }
+      ]
+    },
+    {
       "key": "src/components/Details/Terminal.jsx",
       "value": [
         {
@@ -473,17 +539,6 @@
           "displayName": "DetailsTexts",
           "methods": [],
           "actualName": "DetailsTexts"
-        }
-      ]
-    },
-    {
-      "key": "src/components/Footer/index.jsx",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Footer",
-          "methods": [],
-          "actualName": "Footer"
         }
       ]
     },
@@ -523,68 +578,13 @@
       ]
     },
     {
-      "key": "src/components/Description/index.jsx",
+      "key": "src/components/Footer/index.jsx",
       "value": [
         {
           "description": "",
-          "displayName": "Description",
+          "displayName": "Footer",
           "methods": [],
-          "actualName": "Description"
-        }
-      ]
-    },
-    {
-      "key": "src/components/Description/Developers.jsx",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Developers",
-          "methods": [],
-          "actualName": "Developers"
-        }
-      ]
-    },
-    {
-      "key": "src/components/Description/Entrepreuners.jsx",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Entrepreuners",
-          "methods": [],
-          "actualName": "Entrepreuners"
-        }
-      ]
-    },
-    {
-      "key": "src/components/Card/index.jsx",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Cards",
-          "methods": [],
-          "actualName": "Cards"
-        }
-      ]
-    },
-    {
-      "key": "src/components/Button/index.jsx",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Button",
-          "methods": [],
-          "actualName": "Button"
-        }
-      ]
-    },
-    {
-      "key": "src/pages/index.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "IndexPage",
-          "methods": [],
-          "actualName": "IndexPage"
+          "actualName": "Footer"
         }
       ]
     }

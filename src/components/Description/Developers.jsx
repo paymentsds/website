@@ -29,13 +29,13 @@ const Developers = () => {
           </p>
         </div>
         <div className={styles.buttonsContainer}>
-          <Link to="/docs">
-            <Button>Ver o Repositório</Button>
-          </Link>
-
           <a href="https://github.com/paymentsds">
-            <Button>Ver a Documentação</Button>
+            <Button>Ver o Repositório</Button>
           </a>
+
+          <Link to="/docs">
+            <Button>Ver a Documentação</Button>
+          </Link>
         </div>
       </div>
       <div className={styles.image}>
