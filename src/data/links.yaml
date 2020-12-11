@@ -1,0 +1,23 @@
+# This yaml file contains all links used on the Footer Component
+
+links:
+  docs:
+    starting: "https://developers.paymentsds.org/docs/"
+    api: "https://github.com/paymentsds"
+    faq: ""
+  libraries:
+    java: "https://github.com/paymentsds/mpesa-java-sdk"
+    javascript: "https://github.com/paymentsds/mpesa-js-sdk"
+    php: "https://github.com/paymentsds/mpesa-php-sdk"
+    python: "https://github.com/paymentsds/mpesa-python-sdk"
+    ruby: "https://github.com/paymentsds/mpesa-ruby-sdk"
+  plugins:
+    ecommerce: ""
+    social: ""
+    cloud: ""
+  community:
+    foruns: "https://chat.whatsapp.com/CsmpKskbaFK1dOzVhJXkGh"
+    blog: ""
+    github: "https://github.com/paymentsds"
+    linkedin: ""
+    youtube: "https://www.youtube.com/channel/UCPDx8Vqkt6F_DoR4MwbdVjQ"

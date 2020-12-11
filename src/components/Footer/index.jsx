@@ -1,7 +1,9 @@
 import React from "react"
-import {Link} from "gatsby"
+import { Link } from "gatsby"
+
 import logo from "../../images/payments.png"
 import styles from "./styles.module.css"
+import footerData from "../../data/links.yaml"
 
 const Footer = () => {
   return (
@@ -11,37 +13,71 @@ const Footer = () => {
         <div>
           <h3 className={styles.title}>Documentação</h3>
           <ul>
-            <li><Link to="/">Começando</Link></li>
-            <li><Link to="/">Referência API</Link></li>
-            <li><Link to="/">Perguntas frequentes</Link></li>
+            <li>
+              <a href={footerData?.links?.docs?.starting}>Começando</a>
+            </li>
+            <li>
+              <a href={footerData?.links?.docs?.api}>Referência API</a>
+            </li>
+            <li>
+              <a href={footerData?.links?.docs?.faq}>Perguntas frequentes</a>
+            </li>
           </ul>
         </div>
         <div>
           <h3 className={styles.title}>Bibliotecas</h3>
           <ul>
-            <li><Link to="/">Java</Link></li>
-            <li><Link to="/">Javascript</Link></li>
-            <li><Link to="/">PHP</Link></li>
-            <li><Link to="/">Python</Link></li>
-            <li><Link to="/">Ruby</Link></li>
+            <li>
+              <a href={footerData?.links?.libraries?.java}>Java</a>
+            </li>
+            <li>
+              <a href={footerData?.links?.libraries?.javascript}>Javascript</a>
+            </li>
+            <li>
+              <a href={footerData?.links?.libraries?.php}>PHP</a>
+            </li>
+            <li>
+              <a href={footerData?.links?.libraries?.python}>Python</a>
+            </li>
+            <li>
+              <a href={footerData?.links?.libraries?.ruby}>Ruby</a>
+            </li>
           </ul>
         </div>
         <div>
           <h3 className={styles.title}>Plugins</h3>
           <ul>
-            <li><Link to="/">E-Comerce</Link></li>
-            <li><Link to="/">Social</Link></li>
-            <li><Link to="/">Cloud</Link></li>
+            <li>
+              <a href={footerData?.links?.plugins?.ecommerce}>E-Comerce</a>
+            </li>
+            <li>
+              <a href={footerData?.links?.plugins?.social}>Social</a>
+            </li>
+            <li>
+              <a href={footerData?.links?.plugins?.cloud}>Cloud</a>
+            </li>
           </ul>
         </div>
         <div>
           <h3 className={styles.title}>Comunidade</h3>
           <ul>
-            <li><Link to="/">Fóruns de discussão</Link></li>
-            <li><Link to="/">Blog</Link></li>
-            <li><Link to="/">Github</Link></li>
-            <li><Link to="/">Linkedin</Link></li>
-            <li><Link to="/">Youtube</Link></li>
+            <li>
+              <a href={footerData?.links?.community?.foruns}>
+                Fóruns de discussão
+              </a>
+            </li>
+            <li>
+              <a href={footerData?.links?.community?.blog}>Blog</a>
+            </li>
+            <li>
+              <a href={footerData?.links?.community?.github}>Github</a>
+            </li>
+            <li>
+              <a href={footerData?.links?.community?.linkedin}>Linkedin</a>
+            </li>
+            <li>
+              <a href={footerData?.links?.community?.youtube}>Youtube</a>
+            </li>
           </ul>
         </div>
       </section>
@@ -52,7 +88,6 @@ const Footer = () => {
         </Link>
         <p>PaymentsDS Moçambique © {new Date().getFullYear()}</p>
       </section>
-      
     </footer>
   )
 }

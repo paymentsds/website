@@ -576,17 +576,6 @@
           "actualName": "Home"
         }
       ]
-    },
-    {
-      "key": "src/components/Footer/index.jsx",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Footer",
-          "methods": [],
-          "actualName": "Footer"
-        }
-      ]
     }
   ]
 }
