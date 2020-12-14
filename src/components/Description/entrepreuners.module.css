@@ -1,7 +1,7 @@
 .container {
   display: grid;
   gap: 10px;
-  grid-template-columns: repeat(auto-fit, 658px);
+  grid-template-columns: repeat(auto-fit, 575px);
   align-items: center;
   justify-content: space-evenly;
 }
