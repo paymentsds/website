@@ -2,22 +2,41 @@
 
 links:
   docs:
-    starting: "https://developers.paymentsds.org/docs/"
-    api: "https://github.com/paymentsds"
-    faq: ""
+    - { name: "Começando", url: "https://developers.paymentsds.org/docs/" }
+
+    - { name: "Referência API", url: "https://github.com/paymentsds" }
+
+    - { name: "Perguntas frequentes", url: "" }
+
   libraries:
-    java: "https://github.com/paymentsds/mpesa-java-sdk"
-    javascript: "https://github.com/paymentsds/mpesa-js-sdk"
-    php: "https://github.com/paymentsds/mpesa-php-sdk"
-    python: "https://github.com/paymentsds/mpesa-python-sdk"
-    ruby: "https://github.com/paymentsds/mpesa-ruby-sdk"
+    - { name: "Java", url: "https://github.com/paymentsds/mpesa-java-sdk" }
+
+    - { name: "JavaScript", url: "https://github.com/paymentsds/mpesa-js-sdk" }
+
+    - { name: "PHP", url: "https://github.com/paymentsds/mpesa-php-sdk" }
+
+    - { name: "Python", url: "https://github.com/paymentsds/mpesa-python-sdk" }
+
+    - { name: "Ruby", url: "https://github.com/paymentsds/mpesa-ruby-sdk" }
   plugins:
-    ecommerce: ""
-    social: ""
-    cloud: ""
+    - { name: "E-Commerce", url: "" }
+
+    - { name: "Social", url: "" }
+
+    - { name: "Cloud", url: "" }
   community:
-    foruns: "https://chat.whatsapp.com/CsmpKskbaFK1dOzVhJXkGh"
-    blog: ""
-    github: "https://github.com/paymentsds"
-    linkedin: ""
-    youtube: "https://www.youtube.com/channel/UCPDx8Vqkt6F_DoR4MwbdVjQ"
+    - {
+        name: "Fóruns de discussão",
+        url: "https://chat.whatsapp.com/CsmpKskbaFK1dOzVhJXkGh",
+      }
+
+    - { name: "Blog", url: "" }
+
+    - { name: "GitHub", url: "https://github.com/paymentsds" }
+
+    - { name: "LinkedIn", url: "" }
+
+    - {
+        name: "YouTube",
+        url: "https://www.youtube.com/channel/UCPDx8Vqkt6F_DoR4MwbdVjQ",
+      }
