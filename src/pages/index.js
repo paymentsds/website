@@ -12,7 +12,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Home />
-    <section className="card-session">
+    <section className="sections card-session">
       <Cards
         title="Developer"
         description="Forneçemos uma suite de soluções para integrar qualquer aplicação a
@@ -24,16 +24,17 @@ const IndexPage = () => (
         title="Business"
         description="Forneçemos um conjunto de soluções para transformar o teu negócio para o ambiente digital e aumentar os canais de facturação e vendas"
         link="page-2"
+        sideColor="red"
         linkText="Saiba mais"
       />
     </section>
 
-    <section className="details">
+    <section className="sections details">
       <DetailsTexts />
       <Terminal />
     </section>
 
-    <section className="description">
+    <section className="sections description">
       <Description />
     </section>
   </Layout>
