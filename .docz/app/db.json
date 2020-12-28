@@ -455,6 +455,17 @@
   ],
   "props": [
     {
+      "key": "src/pages/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "IndexPage",
+          "methods": [],
+          "actualName": "IndexPage"
+        }
+      ]
+    },
+    {
       "key": "src/components/Button/index.jsx",
       "value": [
         {
@@ -472,7 +483,16 @@
           "description": "",
           "displayName": "Cards",
           "methods": [],
-          "actualName": "Cards"
+          "actualName": "Cards",
+          "props": {
+            "sideColor": {
+              "defaultValue": {
+                "value": "\"green\"",
+                "computed": false
+              },
+              "required": false
+            }
+          }
         }
       ]
     },
@@ -510,17 +530,6 @@
       ]
     },
     {
-      "key": "src/components/Details/Terminal.jsx",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Terminal",
-          "methods": [],
-          "actualName": "Terminal"
-        }
-      ]
-    },
-    {
       "key": "src/components/Details/index.jsx",
       "value": [
         {
@@ -532,13 +541,13 @@
       ]
     },
     {
-      "key": "src/components/Footer/index.jsx",
+      "key": "src/components/Home/index.jsx",
       "value": [
         {
           "description": "",
-          "displayName": "Footer",
+          "displayName": "Home",
           "methods": [],
-          "actualName": "Footer"
+          "actualName": "Home"
         }
       ]
     },
@@ -567,24 +576,24 @@
       ]
     },
     {
-      "key": "src/components/Home/index.jsx",
+      "key": "src/components/Details/Terminal.jsx",
       "value": [
         {
           "description": "",
-          "displayName": "Home",
+          "displayName": "Terminal",
           "methods": [],
-          "actualName": "Home"
+          "actualName": "Terminal"
         }
       ]
     },
     {
-      "key": "src/pages/index.js",
+      "key": "src/components/Footer/index.jsx",
       "value": [
         {
           "description": "",
-          "displayName": "IndexPage",
+          "displayName": "Footer",
           "methods": [],
-          "actualName": "IndexPage"
+          "actualName": "Footer"
         }
       ]
     }
