@@ -1,11 +1,11 @@
 import React from "react"
-import ReactMarkdown from "react-markdown"
-
+import {Prism as SyntaxHighlighter} from 'react-syntax-highlighter'
+import {materialOceanic} from 'react-syntax-highlighter/dist/esm/styles/prism'
 import styles from "./terminal.module.css"
 
 const Terminal = () => {
-  const markdown = `
-    import { Client } from "@paymentsds/mpesa"
+  const codeExample = `
+    import {Client} from "@paymentsds/mpesa";
 
     const client = new Client({
         apiKey: "<REPLACE>", 
@@ -29,9 +29,12 @@ const Terminal = () => {
             console.log(e)
         })
   `
+
   return (
     <div className={styles.main}>
-      <ReactMarkdown children={markdown} />
+      <SyntaxHighlighter style={materialOceanic}  language={"javascript"}>
+        {codeExample}
+      </SyntaxHighlighter>
     </div>
   )
 }

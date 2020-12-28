@@ -4,10 +4,10 @@ import { Link } from "gatsby"
 import styles from "./styles.module.css"
 import Button from "../Button"
 
-const Cards = ({ title, description, link, linkText, isDetails }) => {
+const Cards = ({ title, description, link, linkText, isDetails, sideColor="green" }) => {
   return (
     <div className={isDetails ? styles.detailsContainer : styles.container}>
-      <div className={styles.sideDiv}></div>
+      <div className={`${styles.sideDiv} ${styles[sideColor]}`} />
       <div className={styles.content}>
         <h4 className={styles.title}>{title}</h4>
         <p className={styles.description}>{description}</p>

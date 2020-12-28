@@ -4,7 +4,7 @@ header {
 
 .menu {
   margin: 0 auto;
-  max-width: 1300px;
+  max-width: 1366px;
   height: 120px;
   padding: 1.45rem 1.0875rem;
   display: flex;
@@ -12,8 +12,7 @@ header {
   align-items: center;
 }
 
-.menu > h1,
-.menu > h4 {
+.menu > h1 {
   margin: 0;
 }
 
@@ -22,23 +21,23 @@ header {
   width: 150px;
 }
 
-.nav {
-  width: 50%;
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
   display: flex;
+  gap: 50px;
   justify-content: space-between;
 }
 
-.nav > h4 {
-  margin: 0;
+.links {
+  font-weight: 600;
+  color: #ecf8ff;
   transition: all ease 0.3s;
+  text-decoration: none;
   border-bottom: 1px solid transparent;
 }
 
-.nav > h4:hover {
+.links:hover {
   border-bottom: 1px solid #00d4ff;
-}
-
-.links {
-  color: #ecf8ff;
-  text-decoration: none;
 }

@@ -1,24 +1,28 @@
-.container {
-  width: 508px;
-  height: 250px;
+.container,
+.detailsContainer {
   background: #1c2c35;
   border-radius: 12px;
   display: flex;
+}
+
+.container {
+  width: 508px;
+  height: 250px;
 }
 
 .detailsContainer {
   width: 475px;
   height: 280px;
-  background: #1c2c35;
-  border-radius: 12px;
-  display: flex;
 }
 
 .sideDiv {
-  width: 14px;
+  width: 16px;
   height: 100%;
-  background: #81f59b;
   border-radius: 12px 0px 0px 12px;
+}
+
+.green {
+  background: #81f59b;
 }
 
 .red {
