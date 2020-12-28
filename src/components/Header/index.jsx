@@ -9,17 +9,15 @@ const Header = ({ siteTitle }) => {
   return (
     <header>
       <div className={styles.menu}>
-        <img src={logo} alt={siteTitle} />
+        <h1><img src={logo} alt={siteTitle} /></h1>
+
         <nav className={styles.nav}>
-          <h4>Sobre nós</h4>
-          <h4>
-            <Link to="/docs" className={styles.links}>
-              Documentação
-            </Link>
-          </h4>
-          <h4>Fórum</h4>
-          <h4>Team</h4>
-          <h4>Contacto</h4>
+          <ul>
+            <li><Link to="/" className={styles.links}>Sobre nós</Link></li>
+            <li><Link to="/docs" className={styles.links}>Documentação</Link></li>
+            <li><Link to="/" className={styles.links}>Fórum</Link></li>
+            <li><Link to="/" className={styles.links}>Contacto</Link></li>
+          </ul>
         </nav>
       </div>
     </header>
