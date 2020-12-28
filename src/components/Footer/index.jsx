@@ -17,7 +17,7 @@ const Footer = () => {
           <h3 className={styles.title}>Documentação</h3>
           <ul>
             {footerData.links.docs.map((link, key) => (
-                <li key={`${link.name}-key`}>
+                <li key={`${link.name}-${key}`}>
                   <a href={link.url}>{link.name}</a>
                 </li>
               )
@@ -29,7 +29,7 @@ const Footer = () => {
           <h3 className={styles.title}>Bibliotecas</h3>
           <ul>
             {footerData.links.libraries.map((link, key) => (
-                <li key={`${link.name}-key`}>
+                <li key={`${link.name}-${key}`}>
                   <a href={link.url}>{link.name}</a>
                 </li>
               )
@@ -41,7 +41,7 @@ const Footer = () => {
           <h3 className={styles.title}>Plugins</h3>
           <ul>
             {footerData.links.plugins.map((link, key) => (
-                <li key={`${link.name}-key`}>
+                <li key={`${link.name}-${key}`}>
                   <a href={link.url}>{link.name}</a>
                 </li>
               )
@@ -53,7 +53,7 @@ const Footer = () => {
           <h3 className={styles.title}>Comunidade</h3>
           <ul>
             {footerData.links.community.map((link, key) => (
-                <li key={`${link.name}-key`}>
+                <li key={`${link.name}-${key}`}>
                   <a href={link.url}>{link.name}</a>
                 </li>
               )
