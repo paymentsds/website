@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import styles from "./developers.module.css"
-import devImage from "../../images/developerImage.svg"
+import devImage from "../../images/developers-00.png"
 import Button from "../Button"
 
 const Developers = () => {

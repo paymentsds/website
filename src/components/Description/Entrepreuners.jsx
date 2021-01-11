@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import styles from "./entrepreuners.module.css"
-import gif from "../../images/entrepeurners.gif"
+import Img from "../../images/empreededores.png"
 import Button from "../Button"
 import check from "../../images/check.svg"
 
@@ -11,7 +11,7 @@ const Entrepreuners = () => {
     <div className={styles.container}>
       <div className={styles.image}>
         <img
-          src={gif}
+          src={Img}
           alt="Gif demonstrating the various meethods entrepreuners can use PaymentsDS on their business"
         />
       </div>
