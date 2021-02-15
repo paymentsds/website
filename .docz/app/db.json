@@ -563,6 +563,17 @@
       ]
     },
     {
+      "key": "src/components/Home/index.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Home",
+          "methods": [],
+          "actualName": "Home"
+        }
+      ]
+    },
+    {
       "key": "src/components/Header/index.jsx",
       "value": [
         {
@@ -583,17 +594,6 @@
               }
             }
           }
-        }
-      ]
-    },
-    {
-      "key": "src/components/Home/index.jsx",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Home",
-          "methods": [],
-          "actualName": "Home"
         }
       ]
     }

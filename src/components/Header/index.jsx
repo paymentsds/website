@@ -9,14 +9,48 @@ const Header = ({ siteTitle }) => {
   return (
     <header>
       <div className={styles.menu}>
-        <h1><img src={logo} alt={siteTitle} /></h1>
+        <h1>
+          <img src={logo} alt={siteTitle} />
+        </h1>
 
         <nav className={styles.nav}>
           <ul>
-            <li><Link to="/" className={styles.links}>Sobre nós</Link></li>
-            <li><Link to="/docs" className={styles.links}>Documentação</Link></li>
-            <li><Link to="/" className={styles.links}>Fórum</Link></li>
-            <li><Link to="/" className={styles.links}>Contacto</Link></li>
+            <li>
+              <Link
+                to="/page-2"
+                activeClassName={styles.active}
+                className={styles.links}
+              >
+                Sobre nós
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/docs"
+                activeClassName={styles.links.active}
+                className={styles.links}
+              >
+                Documentação
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/page-2"
+                activeClassName={styles.links.active}
+                className={styles.links}
+              >
+                Fórum
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/page-2"
+                activeClassName={styles.links.active}
+                className={styles.links}
+              >
+                Contacto
+              </Link>
+            </li>
           </ul>
         </nav>
       </div>
