@@ -10,7 +10,7 @@ const AboutCards = ({ teamMember }) => {
         fixed={teamMember.image.childImageSharp.fixed}
         className={styles.image}
       />
-      <h3 className={styles["card-title"]}>{teamMember.name}</h3>
+      <h3 className={styles.cardTitle}>{teamMember.name}</h3>
       <p className={styles["card-subtitle"]}>{teamMember.role}</p>
     </div>
   )

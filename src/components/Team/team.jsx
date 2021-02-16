@@ -9,12 +9,14 @@ const Team = () => {
     query {
       allTeamYaml {
         edges {
-          name
-          role
-          image {
-            childImageSharp {
-              fixed(width: 100) {
-                ...GatsbyImageSharpFixed_tracedSVG
+          node {
+            name
+            role
+            image {
+              childImageSharp {
+                fixed(width: 175) {
+                  ...GatsbyImageSharpFixed_tracedSVG
+                }
               }
             }
           }
@@ -32,11 +34,8 @@ const Team = () => {
       {edges.map((teamMember, key) => {
         return <AboutCards key={key} teamMember={teamMember.node} />
       })}
-      {/* <AboutCards
-          imageSrc={image}
-          name="Anisio Mandlate"
-          role="Software developer"
-        /> */}
     </div>
   )
 }
+
+export default Team

@@ -1,11 +1,10 @@
 import React from "react"
-// import { Link } from "gatsby"
 
 import styles from "../styles/about-us.module.css"
 import Layout from "../components/Layout"
 import SEO from "../components/SEO/seo"
 import image from "../images/payments-logo.png"
-import AboutCards from "../components/About Card"
+import Team from "../components/Team/team"
 
 const AboutUs = () => (
   <Layout>
@@ -30,33 +29,7 @@ const AboutUs = () => (
 
     <section className={styles.team}>
       <h1>The Team</h1>
-      {/* <div className={styles.cardsHolder}>
-        <AboutCards
-          imageSrc={image}
-          name="Anisio Mandlate"
-          role="Software developer"
-        />
-        <AboutCards
-          imageSrc={image}
-          name="Anisio Mandlate"
-          role="Software developer"
-        />
-        <AboutCards
-          imageSrc={image}
-          name="Anisio Mandlate"
-          role="Software developer"
-        />
-        <AboutCards
-          imageSrc={image}
-          name="Anisio Mandlate"
-          role="Software developer"
-        />
-        <AboutCards
-          imageSrc={image}
-          name="Anisio Mandlate"
-          role="Software developer"
-        />
-      </div> */}
+      <Team />
     </section>
   </Layout>
 )
