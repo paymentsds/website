@@ -1,6 +1,6 @@
 .cardsHolder {
   margin-top: 60px;
   display: grid;
-  gap: 16px;
+  gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }

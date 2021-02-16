@@ -11,7 +11,7 @@ const AboutCards = ({ teamMember }) => {
         className={styles.image}
       />
       <h3 className={styles.cardTitle}>{teamMember.name}</h3>
-      <p className={styles["card-subtitle"]}>{teamMember.role}</p>
+      <p className={styles.cardSubtitle}>{teamMember.role}</p>
     </div>
   )
 }

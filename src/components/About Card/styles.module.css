@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background-color: #1729318f;
+  border: 1px solid rgba(23, 41, 49, 0.56);
   border-radius: 16px;
   padding: 40px 20px;
   filter: drop-shadow(2px, 4px 12px rgba(0, 0, 0, 0.15));
@@ -13,6 +13,11 @@
 .image {
   /* max-width: 100px; */
   border-radius: 50%;
+}
+
+.cardTitle,
+.cardSubtitle {
+  text-align: center;
 }
 
 .cardTitle {
