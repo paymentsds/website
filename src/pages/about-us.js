@@ -29,11 +29,34 @@ const AboutUs = () => (
     </section>
 
     <section className={styles.team}>
-      <AboutCards
-        imageSrc={image}
-        name="Anisio Mandlate"
-        role="Software developer"
-      />
+      <h1>The Team</h1>
+      <div className={styles.cardsHolder}>
+        <AboutCards
+          imageSrc={image}
+          name="Anisio Mandlate"
+          role="Software developer"
+        />
+        <AboutCards
+          imageSrc={image}
+          name="Anisio Mandlate"
+          role="Software developer"
+        />
+        <AboutCards
+          imageSrc={image}
+          name="Anisio Mandlate"
+          role="Software developer"
+        />
+        <AboutCards
+          imageSrc={image}
+          name="Anisio Mandlate"
+          role="Software developer"
+        />
+        <AboutCards
+          imageSrc={image}
+          name="Anisio Mandlate"
+          role="Software developer"
+        />
+      </div>
     </section>
   </Layout>
 )

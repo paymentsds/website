@@ -1,6 +1,5 @@
 .card {
-  max-height: 450px;
-  max-width: 350px;
+  min-height: 500px;
   display: flex;
   flex-direction: column;
   align-items: center;
