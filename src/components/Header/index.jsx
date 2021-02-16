@@ -17,7 +17,7 @@ const Header = ({ siteTitle }) => {
           <ul>
             <li>
               <Link
-                to="/page-2"
+                to="/about-us"
                 activeClassName={styles.active}
                 className={styles.links}
               >
@@ -27,7 +27,7 @@ const Header = ({ siteTitle }) => {
             <li>
               <Link
                 to="/docs"
-                activeClassName={styles.links.active}
+                activeClassName={styles.active}
                 className={styles.links}
               >
                 Documentação
@@ -36,7 +36,7 @@ const Header = ({ siteTitle }) => {
             <li>
               <Link
                 to="/page-2"
-                activeClassName={styles.links.active}
+                activeClassName={styles.active}
                 className={styles.links}
               >
                 Fórum
@@ -45,7 +45,7 @@ const Header = ({ siteTitle }) => {
             <li>
               <Link
                 to="/page-2"
-                activeClassName={styles.links.active}
+                activeClassName={styles.active}
                 className={styles.links}
               >
                 Contacto
