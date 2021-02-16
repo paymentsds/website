@@ -574,17 +574,6 @@
       ]
     },
     {
-      "key": "src/pages/about-us.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "AboutUs",
-          "methods": [],
-          "actualName": "AboutUs"
-        }
-      ]
-    },
-    {
       "key": "src/components/Header/index.jsx",
       "value": [
         {
@@ -605,6 +594,17 @@
               }
             }
           }
+        }
+      ]
+    },
+    {
+      "key": "src/pages/about-us.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "AboutUs",
+          "methods": [],
+          "actualName": "AboutUs"
         }
       ]
     }
