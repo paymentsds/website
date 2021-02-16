@@ -30,7 +30,7 @@ const AboutUs = () => (
 
     <section className={styles.team}>
       <h1>The Team</h1>
-      <div className={styles.cardsHolder}>
+      {/* <div className={styles.cardsHolder}>
         <AboutCards
           imageSrc={image}
           name="Anisio Mandlate"
@@ -56,7 +56,7 @@ const AboutUs = () => (
           name="Anisio Mandlate"
           role="Software developer"
         />
-      </div>
+      </div> */}
     </section>
   </Layout>
 )

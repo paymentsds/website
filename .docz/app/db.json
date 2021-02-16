@@ -466,17 +466,6 @@
       ]
     },
     {
-      "key": "src/components/About Card/index.jsx",
-      "value": [
-        {
-          "description": "",
-          "displayName": "AboutCards",
-          "methods": [],
-          "actualName": "AboutCards"
-        }
-      ]
-    },
-    {
       "key": "src/components/Button/index.jsx",
       "value": [
         {
@@ -605,6 +594,28 @@
           "displayName": "Home",
           "methods": [],
           "actualName": "Home"
+        }
+      ]
+    },
+    {
+      "key": "src/pages/about-us.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "AboutUs",
+          "methods": [],
+          "actualName": "AboutUs"
+        }
+      ]
+    },
+    {
+      "key": "src/components/About Card/index.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "AboutCards",
+          "methods": [],
+          "actualName": "AboutCards"
         }
       ]
     }
