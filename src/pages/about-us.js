@@ -5,6 +5,7 @@ import styles from "../styles/about-us.module.css"
 import Layout from "../components/Layout"
 import SEO from "../components/SEO/seo"
 import image from "../images/payments-logo.png"
+import AboutCards from "../components/About Card"
 
 const AboutUs = () => (
   <Layout>
@@ -27,7 +28,13 @@ const AboutUs = () => (
       </div>
     </section>
 
-    {/* <section className="sections team"></section> */}
+    <section className={styles.team}>
+      <AboutCards
+        imageSrc={image}
+        name="Anisio Mandlate"
+        role="Software developer"
+      />
+    </section>
   </Layout>
 )
 

@@ -598,6 +598,17 @@
       ]
     },
     {
+      "key": "src/components/About Card/index.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "AboutCards",
+          "methods": [],
+          "actualName": "AboutCards"
+        }
+      ]
+    },
+    {
       "key": "src/pages/about-us.js",
       "value": [
         {
