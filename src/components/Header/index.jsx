@@ -9,10 +9,11 @@ const Header = ({ siteTitle }) => {
   return (
     <header>
       <div className={styles.menu}>
-        <h1>
-          <img src={logo} alt={siteTitle} />
-        </h1>
-
+        <Link to="/">
+          <h1>
+            <img src={logo} alt={siteTitle} />
+          </h1>
+        </Link>
         <nav className={styles.nav}>
           <ul>
             <li>

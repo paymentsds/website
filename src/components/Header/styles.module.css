@@ -1,5 +1,8 @@
 header {
-  background: transparent;
+  position: sticky;
+  background: #1a2730;
+  top: 0;
+  border-bottom: 1px solid #1a2730;
 }
 
 .menu {
@@ -12,7 +15,7 @@ header {
   align-items: center;
 }
 
-.menu > h1 {
+a > h1 {
   margin: 0;
 }
 

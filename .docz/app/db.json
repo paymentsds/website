@@ -563,30 +563,6 @@
       ]
     },
     {
-      "key": "src/components/Header/index.jsx",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Header",
-          "methods": [],
-          "actualName": "Header",
-          "props": {
-            "siteTitle": {
-              "type": {
-                "name": "string"
-              },
-              "required": false,
-              "description": "",
-              "defaultValue": {
-                "value": "``",
-                "computed": false
-              }
-            }
-          }
-        }
-      ]
-    },
-    {
       "key": "src/components/Home/index.jsx",
       "value": [
         {
@@ -627,6 +603,30 @@
           "displayName": "AboutCards",
           "methods": [],
           "actualName": "AboutCards"
+        }
+      ]
+    },
+    {
+      "key": "src/components/Header/index.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Header",
+          "methods": [],
+          "actualName": "Header",
+          "props": {
+            "siteTitle": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "``",
+                "computed": false
+              }
+            }
+          }
         }
       ]
     }
