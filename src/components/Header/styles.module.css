@@ -1,8 +1,12 @@
 header {
   position: sticky;
-  background: #1a2730;
+  background: #18242c00;
   top: 0;
-  border-bottom: 1px solid #1a2730;
+}
+
+header.scroll {
+  z-index: 999;
+  background: #18242cf7;
 }
 
 .menu {

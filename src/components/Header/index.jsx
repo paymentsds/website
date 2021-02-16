@@ -1,13 +1,26 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React from "react"
+import React, { useState, useEffect } from "react"
 
 import styles from "./styles.module.css"
 import logo from "../../images/payments.png"
 
 const Header = ({ siteTitle }) => {
+  const [className, setClassName] = useState("")
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll)
+    return () => {
+      window.removeEventListener("scroll", handleScroll, true)
+    }
+  }, [])
+
+  const handleScroll = () => {
+    window.pageYOffset > 135 ? setClassName("scroll") : setClassName("")
+  }
+
   return (
-    <header>
+    <header className={styles[className]}>
       <div className={styles.menu}>
         <Link to="/">
           <h1>
