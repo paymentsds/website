@@ -1,0 +1,21 @@
+# This yaml contains all the information about the team members of PaymentsDS
+
+- name: "Nélio Macombo"
+  role: "Founder & Product Manager"
+  image: "../images/team/Nelio-Macombo.png"
+
+- name: "Edson Michaque"
+  role: "Co-Founder & Lead Developer"
+  image: "../images/team/Edson.png"
+
+- name: "Anísio Mandlate"
+  role: "Software Developer"
+  image: "../images/team/Anisio-Mandlate.png"
+
+- name: "Elton Laice"
+  role: "Software Developer"
+  image: "../images/team/Elton-Laice.png"
+
+- name: "Rosário Fernandes"
+  role: "Community Manager"
+  image: "../images/team/Rosario-Fernandes.png"

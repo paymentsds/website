@@ -466,6 +466,17 @@
       ]
     },
     {
+      "key": "src/components/About Card/index.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "AboutCards",
+          "methods": [],
+          "actualName": "AboutCards"
+        }
+      ]
+    },
+    {
       "key": "src/components/Button/index.jsx",
       "value": [
         {
@@ -563,17 +574,6 @@
       ]
     },
     {
-      "key": "src/components/Home/index.jsx",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Home",
-          "methods": [],
-          "actualName": "Home"
-        }
-      ]
-    },
-    {
       "key": "src/components/Header/index.jsx",
       "value": [
         {
@@ -598,24 +598,13 @@
       ]
     },
     {
-      "key": "src/components/About Card/index.jsx",
+      "key": "src/components/Home/index.jsx",
       "value": [
         {
           "description": "",
-          "displayName": "AboutCards",
+          "displayName": "Home",
           "methods": [],
-          "actualName": "AboutCards"
-        }
-      ]
-    },
-    {
-      "key": "src/pages/about-us.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "AboutUs",
-          "methods": [],
-          "actualName": "AboutUs"
+          "actualName": "Home"
         }
       ]
     }
