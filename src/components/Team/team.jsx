@@ -2,7 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 
 import styles from "./styles.module.css"
-import AboutCards from "../About Card"
+import AboutCards from "../AboutCard"
 
 const Team = () => {
   const teamQuery = graphql`

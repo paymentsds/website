@@ -585,17 +585,6 @@
       ]
     },
     {
-      "key": "src/components/Team/team.jsx",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Team",
-          "methods": [],
-          "actualName": "Team"
-        }
-      ]
-    },
-    {
       "key": "src/components/About Card/index.jsx",
       "value": [
         {
@@ -627,6 +616,17 @@
               }
             }
           }
+        }
+      ]
+    },
+    {
+      "key": "src/components/Team/team.jsx",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Team",
+          "methods": [],
+          "actualName": "Team"
         }
       ]
     }
