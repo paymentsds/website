@@ -1,5 +1,12 @@
 header {
-  background: transparent;
+  position: sticky;
+  background: #18242c00;
+  top: 0;
+}
+
+header.scroll {
+  z-index: 999;
+  background: #18242cf7;
 }
 
 .menu {
@@ -12,7 +19,7 @@ header {
   align-items: center;
 }
 
-.menu > h1 {
+a > h1 {
   margin: 0;
 }
 
@@ -39,5 +46,9 @@ header {
 }
 
 .links:hover {
+  border-bottom: 1px solid #00d4ff;
+}
+
+.links.active {
   border-bottom: 1px solid #00d4ff;
 }

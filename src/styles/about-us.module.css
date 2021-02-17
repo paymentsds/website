@@ -1,0 +1,26 @@
+.main {
+  min-height: 50vh;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 575px 1fr;
+  align-items: center;
+  justify-content: left;
+}
+
+.image {
+  justify-self: left;
+}
+
+.texts h1,
+.team h1 {
+  font-size: 70px;
+}
+
+.team {
+  min-height: 80vh;
+  padding: 80px 0;
+}
+
+.team h1 {
+  text-align: center;
+}
